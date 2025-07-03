@@ -1,5 +1,7 @@
 # Codex Get Auth Conf (auth.json)
 
+![NPM Version](https://img.shields.io/npm/v/%40brantes%2Fcodex-get-auth-conf) ![NPM Downloads dw](https://img.shields.io/npm/dw/%40brantes%2Fcodex-get-auth-conf) ![GitHub License](https://img.shields.io/github/license/pedrobrantes/codex-get-auth-conf)
+
 A standalone Node.js script to programmatically obtain an OpenAI API key by replicating the authentiation flow of the `codex` CLI. This project is the result of a deep dive into reverse-engineering a real-world OAuth 2.0 PKCE authentication flow.
 
 ## 🚀 Features
@@ -20,6 +22,20 @@ This project began as an exploration to understand how modern CLI tools handle s
 -   [npm](https://www.npmjs.com/)
 
 ## ⚙️ Installation & Usage
+
+Run with npx:
+
+```bash
+npx @brantes/codex-get-auth-conf 
+```
+---
+
+You can install this tool globally via npm:
+
+```bash
+npm install -g @brantes/codex-get-auth-conf
+```
+---
 
 1.  **Clone the repository:**
     ```bash

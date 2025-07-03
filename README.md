@@ -33,7 +33,7 @@ npx @brantes/codex-get-auth-conf
 You can install this tool globally via npm:
 
 ```bash
-npm install -g @brantes/codex-get-auth-conf
+npm install -g @brantes/codex-get-auth-conf && getcodexauth
 ```
 ---
 

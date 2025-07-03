@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { signInFlow } from './auth';
 import chalk from 'chalk';
 

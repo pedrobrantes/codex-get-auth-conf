@@ -1,10 +1,32 @@
 {
-  "name": "codex-get-auth-conf",
+  "name": "@brantes/codex-get-auth-conf",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "ts-node run.ts"
+  "description": "A standalone script to obtain an auth.json to OpenAI codex-cli",
+  "private": false,
+  "main": "dist/run.ts",
+  "bin": {
+    "getcodexauth": "dist/run.js"
   },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node run.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrobrantes/codex-get-auth-conf.git"
+  },
+  "keywords": [
+    "openai",
+    "codex",
+    "auth",
+    "cli",
+    "automation"
+  ],
+  "author": "Pedro Brantes",
+  "license": "MIT",
   "dependencies": {
     "chalk": "4.1.2",
     "express": "^4.18.2",
